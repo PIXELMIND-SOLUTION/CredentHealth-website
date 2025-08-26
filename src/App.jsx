@@ -50,9 +50,10 @@ function App() {
       {/* Navigation */}
       <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
         <div className="container">
-          <a className="navbar-brand" href="#">
-            <i className="fa fa-heartbeat me-2"></i>CredentHealth
+          <a className="navbar-brand" href="/">
+            <img src="/logo.png" alt="CredentHealth Logo" height="40" /> CredentHealth
           </a>
+
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -287,7 +288,9 @@ function App() {
           <div className="row">
             <div className="col-lg-4 mb-4 mb-lg-0">
               <h3 className="footer-title">
-                <i className="fa fa-heartbeat me-2"></i>CredentHealth
+                <a className="navbar-brand" href="/">
+                  <img src="/logo.png" alt="CredentHealth Logo" height="40" /> CredentHealth
+                </a>
               </h3>
               <p>Your complete healthcare solution for consultations, diagnostics, and health management.</p>
               <div className="d-flex mt-4">
@@ -323,8 +326,8 @@ function App() {
             <div className="col-md-4 col-lg-3">
               <h5 className="footer-title">Contact Us</h5>
               <ul className="footer-links">
-                <li><i className="fa fa-map-marker-alt me-2"></i>H NO 1-/21SE/1<br/> SMILW, ENCLAVE MAKTHA MAHABOO,<br/> BPET MIYAPUR, SERILINGAMPALLY,<br/> RANGA REDDY - 500049<br/>
-                  SERILINGAMPALLY - 500049<br/>
+                <li><i className="fa fa-map-marker-alt me-2"></i>H NO 1-/21SE/1<br /> SMILW, ENCLAVE MAKTHA MAHABOO,<br /> BPET MIYAPUR, SERILINGAMPALLY,<br /> RANGA REDDY - 500049<br />
+                  SERILINGAMPALLY - 500049<br />
                   India (IN)</li>
                 <li><i className="fa fa-phone me-2"></i> +91 7619196856</li>
                 <li><i className="fa fa-envelope me-2"></i> contact.credenthealth@gmail.com</li>
